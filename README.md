@@ -23,7 +23,7 @@ all code is your original work. `</legalese>`
 
 See LICENSE for more info.
 
-[ci-status-img]: https://github.com/bcoin-org/binet/workflows/Build/badge.svg
-[ci-status-url]: https://github.com/bcoin-org/binet/tree/master
+[ci-status-img]: https://github.com/raptoracle/binet/workflows/Build/badge.svg
+[ci-status-url]: https://github.com/raptoracle/binet/tree/master
 [coverage-status-img]: https://coveralls.io/repos/github/bcoin-org/binet/badge.svg?branch=master
 [coverage-status-url]: https://coveralls.io/github/bcoin-org/binet?branch=master

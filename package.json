@@ -9,10 +9,10 @@
     "ip"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/binet.git",
-  "homepage": "https://github.com/bcoin-org/binet",
+  "repository": "git://github.com/raptoracle/binet.git",
+  "homepage": "https://github.com/raptoracle/binet",
   "bugs": {
-    "url": "https://github.com/bcoin-org/binet/issues"
+    "url": "https://github.com/raptoracle/binet/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/binet.js",
@@ -23,13 +23,13 @@
     "test-ci": "nyc --reporter lcov bmocha -- --reporter spec test/*.js"
   },
   "dependencies": {
-    "bs32": "~0.1.7",
-    "bsert": "~0.0.12"
+    "bs32": "git+https://github.com/raptoracle/bs32.git#semver:=0.1.7",
+    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13"
   },
   "devDependencies": {
-    "bmocha": "^2.1.8",
-    "bts-type-deps": "^0.0.3",
-    "bufio": "^1.2.1"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0",
+    "bts-type-deps": "git+https://github.com/raptoracle/bts-type-deps.git#semver:=0.0.3",
+    "bufio": "git+https://github.com/raptoracle/bufio.git#semver:~1.2.1"
   },
   "engines": {
     "node": ">=8.0.0"
