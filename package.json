@@ -23,13 +23,13 @@
     "test-ci": "nyc --reporter lcov bmocha -- --reporter spec test/*.js"
   },
   "dependencies": {
-    "bs32": "git+https://github.com/raptoracle/bs32.git#semver:=0.1.7",
-    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13"
+    "bs32": "git+https://github.com/raptoracle/bs32.git",
+    "bsert": "git+https://github.com/raptoracle/bsert.git"
   },
   "devDependencies": {
-    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0",
-    "bts-type-deps": "git+https://github.com/raptoracle/bts-type-deps.git#semver:=0.0.3",
-    "bufio": "git+https://github.com/raptoracle/bufio.git#semver:~1.2.1"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git",
+    "bts-type-deps": "git+https://github.com/raptoracle/bts-type-deps.git",
+    "bufio": "git+https://github.com/raptoracle/bufio.git"
   },
   "engines": {
     "node": ">=8.0.0"
